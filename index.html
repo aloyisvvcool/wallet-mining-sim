@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAKE ETH WALLET MINING SIM</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="stopwatch">
+            <p>Time Elapsed</p>
+            <span id="timer">00:00:00</span>
+        </div>
+        <button id="startStopBtn">Start Mining</button>
+        <div class="console">
+            <h2>Total ETH Mined: <span id="counter">0.0000 ETH</span></h2>
+        </div>
+
+        <div class="card">
+            <div class="tools">
+              <div class="circle">
+                <span class="red box"></span>
+              </div>
+              <div class="circle">
+                <span class="yellow box"></span>
+              </div>
+              <div class="circle">
+                <span class="green box"></span>
+              </div>
+            </div>
+            <div class="card__content">
+                <textarea id="consoleOutput" readonly></textarea>
+            </div>
+          </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
